@@ -8,20 +8,77 @@
 
 /* Begin PBXBuildFile section */
 		E80D34311D52B0F50000243A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E80D34301D52B0F50000243A /* AppDelegate.swift */; };
-		E80D34331D52B0F50000243A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E80D34321D52B0F50000243A /* ViewController.swift */; };
 		E80D34361D52B0F50000243A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E80D34341D52B0F50000243A /* Main.storyboard */; };
 		E80D34381D52B0F50000243A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E80D34371D52B0F50000243A /* Assets.xcassets */; };
 		E80D343B1D52B0F50000243A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E80D34391D52B0F50000243A /* LaunchScreen.storyboard */; };
+		E80D34441D52B1BD0000243A /* CategoriesMenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E80D34431D52B1BD0000243A /* CategoriesMenuViewController.swift */; };
+		E80D34461D52B1D80000243A /* CategoryItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = E80D34451D52B1D80000243A /* CategoryItem.swift */; };
+		E80D34481D52B1ED0000243A /* CategoriesItemCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E80D34471D52B1ED0000243A /* CategoriesItemCollectionViewCell.swift */; };
+		E80D344A1D52B1FF0000243A /* categories.plist in Resources */ = {isa = PBXBuildFile; fileRef = E80D34491D52B1FF0000243A /* categories.plist */; };
+		E80D34511D52CC700000243A /* notes.swift in Sources */ = {isa = PBXBuildFile; fileRef = E80D34501D52CC700000243A /* notes.swift */; };
+		E80D34531D52D6C00000243A /* NavigationControllerClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = E80D34521D52D6C00000243A /* NavigationControllerClass.swift */; };
+		E8D961CD1D5397CD007AC066 /* MMDrawerBarButtonItem.m in Sources */ = {isa = PBXBuildFile; fileRef = E8D961C51D5397CD007AC066 /* MMDrawerBarButtonItem.m */; };
+		E8D961CE1D5397CD007AC066 /* MMDrawerController.m in Sources */ = {isa = PBXBuildFile; fileRef = E8D961C71D5397CD007AC066 /* MMDrawerController.m */; };
+		E8D961CF1D5397CD007AC066 /* MMDrawerVisualState.m in Sources */ = {isa = PBXBuildFile; fileRef = E8D961CA1D5397CD007AC066 /* MMDrawerVisualState.m */; };
+		E8D961D01D5397CD007AC066 /* UIViewController+MMDrawerController.m in Sources */ = {isa = PBXBuildFile; fileRef = E8D961CC1D5397CD007AC066 /* UIViewController+MMDrawerController.m */; };
+		E8D961D31D53989A007AC066 /* LeftSideMenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8D961D21D53989A007AC066 /* LeftSideMenuViewController.swift */; };
+		E8D961D71D53A042007AC066 /* AccordionMenu.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E8D961D51D53A03A007AC066 /* AccordionMenu.framework */; };
+		E8D961D81D53A042007AC066 /* AccordionMenu.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = E8D961D51D53A03A007AC066 /* AccordionMenu.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		E8D961DB1D53C583007AC066 /* SwiftyJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8D961DA1D53C583007AC066 /* SwiftyJSON.swift */; };
+		E8D961DD1D53C618007AC066 /* AccordionEntriesStruct.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8D961DC1D53C618007AC066 /* AccordionEntriesStruct.swift */; };
+		E8D961DF1D53C637007AC066 /* AccordionsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8D961DE1D53C637007AC066 /* AccordionsViewController.swift */; };
+		E8D961E11D53C663007AC066 /* AccordionParentCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8D961E01D53C663007AC066 /* AccordionParentCell.swift */; };
+		E8D961E31D53C69B007AC066 /* AccordionChildCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8D961E21D53C69B007AC066 /* AccordionChildCell.swift */; };
+		E8D961E51D53C6B3007AC066 /* words.json in Resources */ = {isa = PBXBuildFile; fileRef = E8D961E41D53C6B3007AC066 /* words.json */; };
+		E8E739471D54E08600BF0561 /* SomeTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8E739461D54E08600BF0561 /* SomeTableView.swift */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		E8D961D91D53A043007AC066 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				E8D961D81D53A042007AC066 /* AccordionMenu.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		E80D342D1D52B0F50000243A /* phraseBookApplication.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = phraseBookApplication.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E80D34301D52B0F50000243A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		E80D34321D52B0F50000243A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		E80D34351D52B0F50000243A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E80D34371D52B0F50000243A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E80D343A1D52B0F50000243A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E80D343C1D52B0F50000243A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E80D34431D52B1BD0000243A /* CategoriesMenuViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CategoriesMenuViewController.swift; sourceTree = "<group>"; };
+		E80D34451D52B1D80000243A /* CategoryItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CategoryItem.swift; sourceTree = "<group>"; };
+		E80D34471D52B1ED0000243A /* CategoriesItemCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CategoriesItemCollectionViewCell.swift; sourceTree = "<group>"; };
+		E80D34491D52B1FF0000243A /* categories.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = categories.plist; sourceTree = "<group>"; };
+		E80D34501D52CC700000243A /* notes.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = notes.swift; path = phraseBookApplication/notes.swift; sourceTree = "<group>"; };
+		E80D34521D52D6C00000243A /* NavigationControllerClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NavigationControllerClass.swift; sourceTree = "<group>"; };
+		E8D961C31D5397CC007AC066 /* phraseBookApplication-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "phraseBookApplication-Bridging-Header.h"; sourceTree = "<group>"; };
+		E8D961C41D5397CD007AC066 /* MMDrawerBarButtonItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMDrawerBarButtonItem.h; sourceTree = "<group>"; };
+		E8D961C51D5397CD007AC066 /* MMDrawerBarButtonItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMDrawerBarButtonItem.m; sourceTree = "<group>"; };
+		E8D961C61D5397CD007AC066 /* MMDrawerController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMDrawerController.h; sourceTree = "<group>"; };
+		E8D961C71D5397CD007AC066 /* MMDrawerController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMDrawerController.m; sourceTree = "<group>"; };
+		E8D961C81D5397CD007AC066 /* MMDrawerController+Subclass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MMDrawerController+Subclass.h"; sourceTree = "<group>"; };
+		E8D961C91D5397CD007AC066 /* MMDrawerVisualState.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMDrawerVisualState.h; sourceTree = "<group>"; };
+		E8D961CA1D5397CD007AC066 /* MMDrawerVisualState.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMDrawerVisualState.m; sourceTree = "<group>"; };
+		E8D961CB1D5397CD007AC066 /* UIViewController+MMDrawerController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+MMDrawerController.h"; sourceTree = "<group>"; };
+		E8D961CC1D5397CD007AC066 /* UIViewController+MMDrawerController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+MMDrawerController.m"; sourceTree = "<group>"; };
+		E8D961D21D53989A007AC066 /* LeftSideMenuViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LeftSideMenuViewController.swift; sourceTree = "<group>"; };
+		E8D961D51D53A03A007AC066 /* AccordionMenu.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AccordionMenu.framework; sourceTree = "<group>"; };
+		E8D961DA1D53C583007AC066 /* SwiftyJSON.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SwiftyJSON.swift; path = ../SwiftyJSON.swift; sourceTree = "<group>"; };
+		E8D961DC1D53C618007AC066 /* AccordionEntriesStruct.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AccordionEntriesStruct.swift; sourceTree = "<group>"; };
+		E8D961DE1D53C637007AC066 /* AccordionsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AccordionsViewController.swift; sourceTree = "<group>"; };
+		E8D961E01D53C663007AC066 /* AccordionParentCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AccordionParentCell.swift; sourceTree = "<group>"; };
+		E8D961E21D53C69B007AC066 /* AccordionChildCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AccordionChildCell.swift; sourceTree = "<group>"; };
+		E8D961E41D53C6B3007AC066 /* words.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = words.json; path = ../words.json; sourceTree = "<group>"; };
+		E8E739461D54E08600BF0561 /* SomeTableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SomeTableView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +86,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E8D961D71D53A042007AC066 /* AccordionMenu.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -38,6 +96,8 @@
 		E80D34241D52B0F50000243A = {
 			isa = PBXGroup;
 			children = (
+				E80D34501D52CC700000243A /* notes.swift */,
+				E8D961D51D53A03A007AC066 /* AccordionMenu.framework */,
 				E80D342F1D52B0F50000243A /* phraseBookApplication */,
 				E80D342E1D52B0F50000243A /* Products */,
 			);
@@ -54,14 +114,84 @@
 		E80D342F1D52B0F50000243A /* phraseBookApplication */ = {
 			isa = PBXGroup;
 			children = (
-				E80D34301D52B0F50000243A /* AppDelegate.swift */,
-				E80D34321D52B0F50000243A /* ViewController.swift */,
+				E8D961E61D53C6CD007AC066 /* AccordionDetails */,
+				E8D961D11D539847007AC066 /* drawerdocs */,
+				E80D344B1D52CC040000243A /* resources */,
+				E80D344C1D52CC1C0000243A /* ViewControllers */,
+				E80D344F1D52CC410000243A /* Cells */,
 				E80D34341D52B0F50000243A /* Main.storyboard */,
-				E80D34371D52B0F50000243A /* Assets.xcassets */,
-				E80D34391D52B0F50000243A /* LaunchScreen.storyboard */,
-				E80D343C1D52B0F50000243A /* Info.plist */,
+				E8E739461D54E08600BF0561 /* SomeTableView.swift */,
+				E80D344E1D52CC390000243A /* Classes */,
 			);
 			path = phraseBookApplication;
+			sourceTree = "<group>";
+		};
+		E80D344B1D52CC040000243A /* resources */ = {
+			isa = PBXGroup;
+			children = (
+				E8D961E41D53C6B3007AC066 /* words.json */,
+				E8D961DA1D53C583007AC066 /* SwiftyJSON.swift */,
+				E80D34301D52B0F50000243A /* AppDelegate.swift */,
+				E80D34371D52B0F50000243A /* Assets.xcassets */,
+				E80D34391D52B0F50000243A /* LaunchScreen.storyboard */,
+				E80D34491D52B1FF0000243A /* categories.plist */,
+				E80D343C1D52B0F50000243A /* Info.plist */,
+			);
+			name = resources;
+			sourceTree = "<group>";
+		};
+		E80D344C1D52CC1C0000243A /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				E80D34521D52D6C00000243A /* NavigationControllerClass.swift */,
+				E8D961DE1D53C637007AC066 /* AccordionsViewController.swift */,
+				E80D34431D52B1BD0000243A /* CategoriesMenuViewController.swift */,
+				E8D961D21D53989A007AC066 /* LeftSideMenuViewController.swift */,
+			);
+			name = ViewControllers;
+			sourceTree = "<group>";
+		};
+		E80D344E1D52CC390000243A /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				E80D34451D52B1D80000243A /* CategoryItem.swift */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		E80D344F1D52CC410000243A /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				E80D34471D52B1ED0000243A /* CategoriesItemCollectionViewCell.swift */,
+			);
+			name = Cells;
+			sourceTree = "<group>";
+		};
+		E8D961D11D539847007AC066 /* drawerdocs */ = {
+			isa = PBXGroup;
+			children = (
+				E8D961C31D5397CC007AC066 /* phraseBookApplication-Bridging-Header.h */,
+				E8D961C41D5397CD007AC066 /* MMDrawerBarButtonItem.h */,
+				E8D961C51D5397CD007AC066 /* MMDrawerBarButtonItem.m */,
+				E8D961C61D5397CD007AC066 /* MMDrawerController.h */,
+				E8D961C71D5397CD007AC066 /* MMDrawerController.m */,
+				E8D961C81D5397CD007AC066 /* MMDrawerController+Subclass.h */,
+				E8D961C91D5397CD007AC066 /* MMDrawerVisualState.h */,
+				E8D961CA1D5397CD007AC066 /* MMDrawerVisualState.m */,
+				E8D961CB1D5397CD007AC066 /* UIViewController+MMDrawerController.h */,
+				E8D961CC1D5397CD007AC066 /* UIViewController+MMDrawerController.m */,
+			);
+			name = drawerdocs;
+			sourceTree = "<group>";
+		};
+		E8D961E61D53C6CD007AC066 /* AccordionDetails */ = {
+			isa = PBXGroup;
+			children = (
+				E8D961DC1D53C618007AC066 /* AccordionEntriesStruct.swift */,
+				E8D961E01D53C663007AC066 /* AccordionParentCell.swift */,
+				E8D961E21D53C69B007AC066 /* AccordionChildCell.swift */,
+			);
+			name = AccordionDetails;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,6 +204,7 @@
 				E80D34291D52B0F50000243A /* Sources */,
 				E80D342A1D52B0F50000243A /* Frameworks */,
 				E80D342B1D52B0F50000243A /* Resources */,
+				E8D961D91D53A043007AC066 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -96,6 +227,7 @@
 				TargetAttributes = {
 					E80D342C1D52B0F50000243A = {
 						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = Y3967M496H;
 					};
 				};
 			};
@@ -122,9 +254,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E80D344A1D52B1FF0000243A /* categories.plist in Resources */,
 				E80D343B1D52B0F50000243A /* LaunchScreen.storyboard in Resources */,
 				E80D34381D52B0F50000243A /* Assets.xcassets in Resources */,
 				E80D34361D52B0F50000243A /* Main.storyboard in Resources */,
+				E8D961E51D53C6B3007AC066 /* words.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -135,8 +269,23 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E80D34331D52B0F50000243A /* ViewController.swift in Sources */,
 				E80D34311D52B0F50000243A /* AppDelegate.swift in Sources */,
+				E8E739471D54E08600BF0561 /* SomeTableView.swift in Sources */,
+				E80D34511D52CC700000243A /* notes.swift in Sources */,
+				E8D961DD1D53C618007AC066 /* AccordionEntriesStruct.swift in Sources */,
+				E8D961DF1D53C637007AC066 /* AccordionsViewController.swift in Sources */,
+				E8D961CE1D5397CD007AC066 /* MMDrawerController.m in Sources */,
+				E8D961DB1D53C583007AC066 /* SwiftyJSON.swift in Sources */,
+				E8D961D01D5397CD007AC066 /* UIViewController+MMDrawerController.m in Sources */,
+				E8D961CF1D5397CD007AC066 /* MMDrawerVisualState.m in Sources */,
+				E80D34481D52B1ED0000243A /* CategoriesItemCollectionViewCell.swift in Sources */,
+				E8D961E31D53C69B007AC066 /* AccordionChildCell.swift in Sources */,
+				E8D961E11D53C663007AC066 /* AccordionParentCell.swift in Sources */,
+				E80D34461D52B1D80000243A /* CategoryItem.swift in Sources */,
+				E80D34531D52D6C00000243A /* NavigationControllerClass.swift in Sources */,
+				E80D34441D52B1BD0000243A /* CategoriesMenuViewController.swift in Sources */,
+				E8D961D31D53989A007AC066 /* LeftSideMenuViewController.swift in Sources */,
+				E8D961CD1D5397CD007AC066 /* MMDrawerBarButtonItem.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -249,10 +398,20 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = phraseBookApplication/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.bolatashim.phraseBookApplication;
+				PRODUCT_BUNDLE_IDENTIFIER = "ashim.bolat-Bamboo-Breakout";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "phraseBookApplication/phraseBookApplication-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
@@ -260,10 +419,19 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = phraseBookApplication/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.bolatashim.phraseBookApplication;
+				PRODUCT_BUNDLE_IDENTIFIER = "ashim.bolat-Bamboo-Breakout";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "phraseBookApplication/phraseBookApplication-Bridging-Header.h";
 			};
 			name = Release;
 		};
@@ -286,6 +454,7 @@
 				E80D34411D52B0F50000243A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

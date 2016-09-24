@@ -1,0 +1,659 @@
+{
+    "Сәлемдескенде":{
+        "title": "Greeting",
+        
+        
+        "data":[
+                {
+                "phrase": "Сәлеметсіз бе?",
+                "translation": "안녕하세요",
+                "transcription": "[ан : нёң : һа : сэ : йо]",
+                "sound": ""
+                },
+                
+                {
+                "phrase": "Қайырлы таң",
+                "translation": "좋은 아침입니다",
+                "transcription": "[чо : ын : а : тчим : им : ни : да]",
+                "sound": ""
+                },
+                
+                {
+                "phrase": "Қайырлы күн",
+                "translation": "좋은 오후입니다",
+                "transcription": "[чо : ын : о : ху : им : ни : да]",
+                "sound": ""
+                },
+                {
+                "phrase": "Қайырлы кеш",
+                "translation": "좋은 저녁입니다",
+                "transcription": "[чо : ын : чо : нёк : им : ни : да]",
+                "sound": ""
+                },
+                
+                {
+                "phrase": "Қайырлы түн",
+                "translation": "좋은 밤 되세요",
+                "transcription": "[чо : ын : пам : тэ : сэ : йо]",
+                "sound": ""
+                },
+                
+                {
+                "phrase": "Қалыңыз қалай?",
+                "translation": "어떻게 지내세요?",
+                "transcription": "[от : то : ке : чи : нэ : сэ : йо]",
+                "sound": ""
+                },
+                {
+                "phrase": "Жақсымын, рахмет!",
+                "translation": "잘 지내요, 고마워요!",
+                "transcription": "[чаль : чи : нэ : йо : ко : ма : уо : йо]",
+                "sound": ""
+                },
+                
+                {
+                "phrase": "Атыңыз кім?",
+                "translation": "이름이 뭐예요?",
+                "transcription": "[и : рым : и : мұо : йе : йо]",
+                "sound": ""
+                },
+                
+                {
+                "phrase": "Менің атым …",
+                "translation": "제 이름은 ….입니다",
+                "transcription": "[че : и : рым : ын : … : им : ни : да]",
+                "sound": ""
+                },
+                {
+                "phrase": "Көріскенше!",
+                "translation": "나중에 봐요!",
+                "transcription": "[на : джуң : э : па : йо]",
+                "sound": ""
+                },
+                
+                {
+                "phrase": "Сау болыңыз!",
+                "translation": "안녕히 계세요 / 가세요",
+                "transcription": "[ан : нёң : һи : кие : сэ : йо]",
+                "sound": ""
+                },
+                
+                {
+                "phrase": "Өз-өзіңді күт",
+                "translation": "조심하세요",
+                "transcription": "[джо : щим : һа : сэ : йо]",
+                "sound": ""
+                },
+                {
+                "phrase": "Танысқанымға қуаныштымын",
+                "translation": "만나서 반갑습니다",
+                "transcription": "[ман : на : со : пан : гап : сым : ни : да]",
+                "sound": ""
+                },
+                
+                {
+                "phrase": "Көріспегелі көп болыпты",
+                "translation": "오랜만이에요",
+                "transcription": "[о : рэн : ман : и : э : йо]",
+                "sound": ""
+                },
+                
+                {
+                "phrase": "Кәрісше кішкене сөйлей аламын",
+                "translation": " 한국어 조금 할 수 있어요",
+                "transcription": "[хан : гуг : о : чо : гым : халь : су : ис : со : йо]",
+                "sound": ""
+                },
+                {
+                "phrase": "Кәрісше білмеймін",
+                "translation": "한국어 못해요",
+                "transcription": "[хан : гуг : о : мот : хэ : йо]",
+                "sound": ""
+                },{
+                "phrase": "Мен Қазақстаннан келдім",
+                "translation": "저는 카자흐스탄에서 왔어요",
+                "transcription": "[чо : нын : ка : джа : һы : сы : тан : э : со : уас : со : йо]",
+                "sound": ""
+                },{
+                "phrase": "Жасыңыз қаншада?",
+                "translation": "몇 살 이세요?",
+                "transcription": "[мёт : саль : и : сэ : йо]",
+                "sound": ""
+                },{
+                "phrase": "Менің жасым …(сан)",
+                "translation": "저는 … 살입니다",
+                "transcription": "[чо : нын : … : саль : им : ни : да ]",
+                "sound": ""
+                }
+              ]
+    },
+    
+    "something":{
+        "title": "Greeting2",
+        
+        
+        "data":[
+                
+                {
+                "phrase": "2Сәлеметсіз бе?",
+                "translation": "안녕해세요",
+                "transcription": "[ан - нең - һа - сэ - йо]",
+                "sound": ""
+                },
+                
+                {
+                "phrase": "2Есіміңіз кім болады?",
+                "translation": "이름이 뭐예요?",
+                "transcription": "[и - рыми - мұо - йе - йо]",
+                "sound": ""
+                },
+                
+                {
+                "phrase": "2Қалыңыз қалай?",
+                "translation": "어떻게 지내세요?",
+                "transcription": "[оттокэ чинэсейо]",
+                "sound": ""
+                }
+                ]
+    },
+    
+    "otherthing":{
+        "title": "Greeting",
+        
+        
+        "data":[
+                
+                {
+                "phrase": "2Сәлеметсіз бе?",
+                "translation": "안녕해세요",
+                "transcription": "[ан - нең - һа - сэ - йо]",
+                "sound": ""
+                },
+                
+                {
+                "phrase": "2Есіміңіз кім болады?",
+                "translation": "이름이 뭐예요?",
+                "transcription": "[и - рыми - мұо - йе - йо]",
+                "sound": ""
+                },
+                
+                {
+                "phrase": "2Қалыңыз қалай?",
+                "translation": "어떻게 지내세요?",
+                "transcription": "[оттокэ чинэсейо]",
+                "sound": ""
+                }
+                ]
+    },
+    
+    "globe":{
+        "title": "Greeting",
+        
+        
+        "data":[
+                
+                {
+                "phrase": "globe бе?",
+                "translation": "안녕해세요",
+                "transcription": "[ан - нең - һа - сэ - йо]",
+                "sound": ""
+                },
+                
+                {
+                "phrase": "2Есіміңіз кім болады?",
+                "translation": "이름이 뭐예요?",
+                "transcription": "[и - рыми - мұо - йе - йо]",
+                "sound": ""
+                },
+                
+                {
+                "phrase": "2Қалыңыз қалай?",
+                "translation": "어떻게 지내세요?",
+                "transcription": "[оттокэ чинэсейо]",
+                "sound": ""
+                }
+                ]
+    },
+    
+    "calendar":{
+        "title": "Greeting",
+        
+        
+        "data":[
+                
+                {
+                "phrase": "calendar бе?",
+                "translation": "안녕해세요",
+                "transcription": "[ан - нең - һа - сэ - йо]",
+                "sound": ""
+                },
+                
+                {
+                "phrase": "2Есіміңіз кім болады?",
+                "translation": "이름이 뭐예요?",
+                "transcription": "[и - рыми - мұо - йе - йо]",
+                "sound": ""
+                },
+                
+                {
+                "phrase": "2Қалыңыз қалай?",
+                "translation": "어떻게 지내세요?",
+                "transcription": "[оттокэ чинэсейо]",
+                "sound": ""
+                }
+                ]
+    },
+    
+    "ооо":{
+        "title": "Greeting",
+        
+        
+        "data":[
+                
+                {
+                "phrase": "Сәлем әлем бе?",
+                "translation": "안녕해세요",
+                "transcription": "[ан - нең - һа - сэ - йо]",
+                "sound": ""
+                },
+                
+                {
+                "phrase": "2Есіміңіз кім болады?",
+                "translation": "이름이 뭐예요?",
+                "transcription": "[и - рыми - мұо - йе - йо]",
+                "sound": ""
+                },
+                
+                {
+                "phrase": "2Қалыңыз қалай?",
+                "translation": "어떻게 지내세요?",
+                "transcription": "[оттокэ чинэсейо]",
+                "sound": ""
+                }
+                ]
+    },
+    
+    "Мейрамханада":{
+        "title": "Greeting",
+        
+        
+        "data":[
+                
+                {
+                "phrase": "Мейрамхана қалай бе?",
+                "translation": "안녕해세요",
+                "transcription": "[ан - нең - һа - сэ - йо]",
+                "sound": ""
+                },
+                
+                {
+                "phrase": "2Есіміңіз кім болады?",
+                "translation": "이름이 뭐예요?",
+                "transcription": "[и - рыми - мұо - йе - йо]",
+                "sound": ""
+                },
+                
+                {
+                "phrase": "2Қалыңыз қалай?",
+                "translation": "어떻게 지내세요?",
+                "transcription": "[оттокэ чинэсейо]",
+                "sound": ""
+                }
+                ]
+    },
+    
+    "Кинотеатрда":{
+        "title": "Greeting",
+        
+        
+        "data":[
+                
+                {
+                "phrase": "Кинотеатр қалай бе?",
+                "translation": "안녕해세요",
+                "transcription": "[ан - нең - һа - сэ - йо]",
+                "sound": ""
+                },
+                
+                {
+                "phrase": "2Есіміңіз кім болады?",
+                "translation": "이름이 뭐예요?",
+                "transcription": "[и - рыми - мұо - йе - йо]",
+                "sound": ""
+                },
+                
+                {
+                "phrase": "2Қалыңыз қалай?",
+                "translation": "어떻게 지내세요?",
+                "transcription": "[оттокэ чинэсейо]",
+                "sound": ""
+                }
+                ]
+    },
+        "Сандар":{
+      "title": "Сандар",
+        
+        
+      "data":[
+        
+        {
+          "phrase": "бір",
+          "translation": "일 / 하나",
+          "transcription": "[йоль / ха : на]",
+          "sound": ""
+        },
+        
+        {
+          "phrase": "екі",
+          "translation": "이 / 둘",
+          "transcription": "[и / дуль]",
+          "sound": ""
+        },
+        
+        {
+          "phrase": "үш",
+          "translation": "삼 / 셋",
+          "transcription": "[сам / сэдт]",
+          "sound": ""
+        },
+        {
+          "phrase": "төрт",
+          "translation": "사 / 넷",
+          "transcription": "[са / нэдт]",
+          "sound": ""
+        },
+        
+        {
+          "phrase": "бес",
+          "translation": "오 / 다섯",
+          "transcription": "[о / да : содт]",
+          "sound": ""
+        },
+        {
+          "phrase": "алты",
+          "translation": "육 / 여섯",
+          "transcription": "[юк / ё : содт]",
+          "sound": ""
+        },
+        
+        {
+          "phrase": "жеті",
+          "translation": "칠 / 일곱",
+          "transcription": "[тчиль / иль : гоп]",
+          "sound": ""
+        },
+        
+        {
+          "phrase": "сегіз",
+          "translation": "팔 / 여덟",
+          "transcription": "[паль / ё : доль]",
+          "sound": ""
+        },
+        {
+          "phrase": "тоғыз",
+          "translation": "구 / 아홉",
+          "transcription": "[гу / а : хоп]",
+          "sound": ""
+        },
+        
+        {
+          "phrase": "он",
+          "translation": "십 / 열",
+          "transcription": "[щип / ёль]",
+          "sound": ""
+        },
+        
+        {
+          "phrase": "он бір",
+          "translation": "십일 / 열하나",
+          "transcription": "[щип : йоль / ёль : ха : на]",
+          "sound": ""
+        },
+        {
+          "phrase": "он екі",
+          "translation": "십이 / 열둘",
+          "transcription": "[щип : и / ёль : дуль]",
+          "sound": ""
+        },
+        
+        {
+          "phrase": "он үш",
+          "translation": "십삼 / 열셋",
+          "transcription": "[щип : сам / ёль : сэдт]",
+          "sound": ""
+        },
+        
+        {
+          "phrase": "он төрт",
+          "translation": "십사 / 열넷",
+          "transcription": "[щип : са / ёль : нэдт]",
+          "sound": ""
+        },
+        {
+          "phrase": "он бес",
+          "translation": "십오 / 열다섯",
+          "transcription": "[щип : о / ёль : да : содт]",
+          "sound": ""
+        },
+        
+        {
+          "phrase": "он алты",
+          "translation": "십육 / 열여섯",
+          "transcription": "[щим : нюк / ёль : ё : содт]",
+          "sound": ""
+        },
+        
+        {
+          "phrase": "он жеті",
+          "translation": "십칠 / 열일곱",
+          "transcription": "[щип : тчиль / ёль : иль : гоп]",
+          "sound": ""
+        },
+        {
+          "phrase": "он сегіз",
+          "translation": "십팔 / 열여덟",
+          "transcription": "[щип : паль / ёль : ё : доль]",
+          "sound": ""
+        },
+        
+        {
+          "phrase": "он тоғыз",
+          "translation": "십구 / 열아홉",
+          "transcription": "[щип : гу / ёль : а : хоп]",
+          "sound": ""
+        },
+        
+        {
+          "phrase": "жиырма",
+          "translation": "이십 / 스물",
+          "transcription": "[и : щип / сы : муль]",
+          "sound": ""
+        },{
+          "phrase": "отыз",
+          "translation": "삼십 / 서른",
+          "transcription": "[сам : щип / со : рын]",
+          "sound": ""
+        },{
+          "phrase": "қырық",
+          "translation": "사십 / 마흔",
+          "transcription": "[са : щип / ма : хын]",
+          "sound": ""
+        },{
+          "phrase": "елу",
+          "translation": "오십 / 쉰",
+          "transcription": "[о : щип / щин]",
+          "sound": ""
+        },{
+          "phrase": "алпыс",
+          "translation": "육십 / 예순",
+          "transcription": "[юк : щип / йэ : сын]",
+          "sound": ""
+        },{
+          "phrase": "жетпіс",
+          "translation": "칠십 / 일흔",
+          "transcription": "[тчиль : щип / иль : һын]",
+          "sound": ""
+        },{
+          "phrase": "сексен",
+          "translation": "팔십 / 여든",
+          "transcription": "[паль : щип / йо : дын]",
+          "sound": ""
+        },{
+          "phrase": "тоқсан",
+          "translation": "구십 / 아흔",
+          "transcription": "[ гу : щип / а : хын]",
+          "sound": ""
+        },{
+          "phrase": "жүз",
+          "translation": "백",
+          "transcription": "[бэк]",
+          "sound": ""
+        },{
+          "phrase": "мың",
+          "translation": "천",
+          "transcription": "[тчон]",
+          "sound": ""
+        },{
+          "phrase": "он мың",
+          "translation": "만",
+          "transcription": "[ман]",
+          "sound": ""
+        },{
+          "phrase": "жүз мың",
+          "translation": "십만",
+          "transcription": "[щим : ман]",
+          "sound": ""
+        },{
+          "phrase": "миллион",
+          "translation": "백만",
+          "transcription": "[пэң : ман]",
+          "sound": ""
+        }
+      ]
+    },
+    "Жол сұрау":{
+        "title": "Greeting",
+        
+        
+        "data":[
+                
+                {
+                "phrase": "Жол сұрау қалай бе?",
+                "translation": "안녕해세요",
+                "transcription": "[ан - нең - һа - сэ - йо]",
+                "sound": ""
+                },
+                
+                {
+                "phrase": "2Есіміңіз кім болады?",
+                "translation": "이름이 뭐예요?",
+                "transcription": "[и - рыми - мұо - йе - йо]",
+                "sound": ""
+                },
+                
+                {
+                "phrase": "2Қалыңыз қалай?",
+                "translation": "어떻게 지내세요?",
+                "transcription": "[оттокэ чинэсейо]",
+                "sound": ""
+                }
+                ]
+    },
+    "Емханада":{
+      "title": "Емханада",
+        
+        
+      "data":[
+        
+        {
+          "phrase": "Дәрігер шақырыңыз (өтініш)",
+          "translation": "언제 그랬습니까?",
+          "transcription": "[ый : са : рыль : пуль : лё : чу : сэ: йо]",
+          "sound": ""
+        },
+        {
+          "phrase": "Қай жеріңіз ауырып тұр?",
+          "translation": "어디가 아프십니까?",
+          "transcription": "[о : ди : га : а : пы : щим : ник : ка]",
+          "sound": "[]"
+        },
+        {
+          "phrase": "Қандай көмек көрсетейін?",
+          "translation": "뭘 도와 드릴까요?",
+          "transcription": "[муоль : до : уа : ды : рильк : ка : йо]",
+          "sound": ""
+        },
+        {
+          "phrase": "Бұдан басқа еш жеріңіз ауырып тұрған жоқ па?",
+          "translation": "그밖에 또 아픈 곳이 있습니까?",
+          "transcription": "[кы : паг : ке : ддо : а : пын : го : щи : ис : сым : ник : ка ]",
+          "sound": ""
+        },
+        {
+          "phrase": "Қанша уақыт болды?",
+          "translation": "언제 그랬습니까?",
+          "transcription": "[он : джэ : кы : рэс : сым : ник : ка]",
+          "sound": ""
+        },
+        {
+          "phrase": "Қашаннан бері аурып жатыр?",
+          "translation": "언제부터 아프셨습니까?",
+          "transcription": "[он : джэ : пу : то : а : пы : щёс : сым : ник : ка]",
+          "sound": ""
+        },
+        {
+          "phrase": "Өзімді нашар сезініп тұрмын",
+          "translation": "몸이 안 좋습니다",
+          "transcription": "[мом : и : ан : чо : сым : ни : да]",
+          "sound": ""
+        },
+        {
+          "phrase": "Әлсіз болып тұрмын",
+          "translation": "몸이 나른합니다",
+          "transcription": "[мом : и : на : рын : хам : ни : да]",
+          "sound": ""
+        },
+        {
+          "phrase": "Басым айналып жатыр",
+          "translation": "현기증이 납니다",
+          "transcription": "[хён : ги : джың : и : нам : ни : да]",
+          "sound": ""
+        },
+        {
+          "phrase": "Тәбетім жоқ",
+          "translation": "식욕이 없습니다",
+          "transcription": "[щиг : ёг : и : оп : сым : ни : да]",
+          "sound": ""
+        },
+        {
+          "phrase": "Түнде ұйықтай алмаймын",
+          "translation": "밤에 잠이 안 옵니다",
+          "transcription": "[пам : э : чам : и : ан : ом : ни : да]",
+          "sound": ""
+        },
+        {
+          "phrase": "Дене температураңызды өлшеп көрейін",
+          "translation": "체온을 재보겠습니다",
+          "transcription": "[тчэ : он : ыль : чэ : по : гес : сым : ни : да]",
+          "sound": ""
+        },
+        {
+          "phrase": "Қан қысымыңызды өлшеп көрейін",
+          "translation": "혈압을 재겠습니다",
+          "transcription": "[хёль : ап : ыль : чэ : гес : сым : ни : да]",
+          "sound": ""
+        },
+        {
+          "phrase": "Емханаға жатуыңыз қажет",
+          "translation": "입원해야만 합니다",
+          "transcription": "[иб : уон : хэ : йа : ман : хам : ни : да]",
+          "sound": ""
+        }
+      ]
+    }
+    
+    
+    
+    
+    
+}
